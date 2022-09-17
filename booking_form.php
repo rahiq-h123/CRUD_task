@@ -20,7 +20,7 @@ $number_people = $_POST['number_people'];
 else{
     $stmt = $conn->prepare ("insert into booking (name, phone, b_time, food, number_people)
     values (?, ?, ?, ?, ?)");
-    $stmt->bind_param("ssssi", $name, $phone, $number_people);
+    $stmt->bind_param("ssssi", $name, $phone, $b_time, $food $number_people);
     $stmt->execute();
     echo "booking secceeded..";
     $stmt->close();
