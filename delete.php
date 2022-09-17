@@ -23,6 +23,6 @@ if ($connection->query($sql) === TRUE) {
   } else {
     echo "Error deleting record: " . $connection->error;
   }
-header("location:/booking_form/read.php");
+header("location:read.php");
 exit;
 ?>
