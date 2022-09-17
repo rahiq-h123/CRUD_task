@@ -17,7 +17,7 @@ $successMessage="";
 
 if($_SERVER['REQUEST_METHOD']=='GET'){
     if(!isset($_GET["id"])){
-        header("location:/booking_form/read.php");
+        header("location:read.php");
         exit;
     }
     $id= $_GET["id"];
@@ -27,7 +27,7 @@ if($_SERVER['REQUEST_METHOD']=='GET'){
     $row =$result->fetch_assoc();
 
     if(!$row){
-        header("location:/booking_form/read.php");
+        header("location:read.php");
         exit;
     }
     $name= $row["name"];
@@ -57,7 +57,7 @@ if($_SERVER['REQUEST_METHOD']=='GET'){
         break;
     }
     $successMessage="booking updated successfully";
-    header("location: /booking_form/read.php");
+    header("location: read.php");
     exit;
 
 }
