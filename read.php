@@ -11,7 +11,7 @@
 
     <div class="container my-5">
         <h2> List of booked people </h2>
-        <a class="btn btn-primary" href="/booking_form/create.php" role="button">New Booking</a>
+        <a class="btn btn-primary" href="create.php" role="button">New Booking</a>
         <br>
         <table class="table">
         <thead>
