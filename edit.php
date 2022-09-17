@@ -125,7 +125,7 @@ if($_SERVER['REQUEST_METHOD']=='GET'){
                     </div>
                     
                     <div class="col-sm-3 d-grid">
-                        <a class="btn btn-outline-primary" href="/booking_form/read.php" role="button">Cancel</a>
+                        <a class="btn btn-outline-primary" href="read.php" role="button">Cancel</a>
                     </div>
                 </div>
                 
