@@ -49,8 +49,8 @@ if(!$result){
 		  <td> $row[name] </td>;
 		  <td> $row[phone] </td>;
 		  <td> $row[number_people] </td>;
-          <td> <a class='btn btn-primary btn-sm' href='/booking_form/edit.php? id =$row[id]'> Edit </a> 
-          <a class='btn btn-danger btn-sm' href='/booking_form/delete.php? id =$row[id]'> Delete </a>
+          <td> <a class='btn btn-primary btn-sm' href='edit.php? id =$row[id]'> Edit </a> 
+          <a class='btn btn-danger btn-sm' href='delete.php? id =$row[id]'> Delete </a>
           </td>
 		  </tr>
           ";
