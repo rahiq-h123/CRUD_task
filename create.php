@@ -35,7 +35,7 @@ if($_SERVER['REQUEST_METHOD']=='POST'){
         $number_people = "";
         $successMessage= "Booked successfully";
 
-        header("location:/booking_form/read.php");
+        header("location:read.php");
         exit;
 }
         while(false);
@@ -103,7 +103,7 @@ if($_SERVER['REQUEST_METHOD']=='POST'){
                     </div>
                     
                     <div class="col-sm-3 d-grid">
-                        <a class="btn btn-outline-primary" href="/booking_form/read.php" role="button">Cancel</a>
+                        <a class="btn btn-outline-primary" href="read.php" role="button">Cancel</a>
                     </div>
                 </div>
                 
